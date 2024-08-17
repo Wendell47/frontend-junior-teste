@@ -1,65 +1,36 @@
-# Teste Técnico Frontend Júnior
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## 👋 Introdução
-Bem-vindo(a) ao teste técnico para desenvolvedores(as) frontend da Orbesoft! Este desafio tem como objetivo avaliar suas habilidades como desenvolvedor(a) frontend. 
+## Getting Started
 
-## 🎯 Objetivo
-Desenvolva uma aplicação de e-commerce para a venda de bicicletas. A aplicação deve permitir que os usuários naveguem por um catálogo de bicicletas, visualizem detalhes dos produtos, adicionem produtos ao carrinho e finalizem a compra.
+First, run the development server:
 
-## 📌 Requisitos
-- [ ] **Catálogo de bicicletas**
-  - [ ] Listagem com imagem, nome, preço e descrição.
-  - [ ] Paginação.
-  - [ ] Filtro por marca.
-  - [ ] Ordenação por menor preço ou maior preço.
-  - [ ] Busca por nome.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
- - [ ] **Página de detalhes da bicicleta**
-   - [ ] Imagem da bicicleta.
-   - [ ] Nome, preço e descrição completa.
-   - [ ] Opção de adicionar ao carrinho.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- [ ] **Carrinho de compras**
-  - [ ] Adicionar e remover produtos.
-  - [ ] Visualizar e atualizar quantidade de itens no carrinho.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## 🛠️ Ferramentas e Tecnologias (Obrigatórias)
-- Next.js
-- TypeScript
-- TailwindCSS
-- React Query
-- Axios
-- Zod
-- React Hook Form
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## 🔗 Links
-- [Figma do Projeto](https://www.figma.com/design/TZXjpooM467GLW7UXpvf47/E-commerce---Bike?node-id=1-131)  
-- [API](https://www.postman.com/orbesoft-team/workspace/teste-frontend-jnior/overview)
+## Learn More
 
-## 📋 Critérios de Avaliação
-- Gerenciamento de estado.
-- Componentização.
-- Responsividade.
-- Preocupação com usabilidade.
-- Preocupação com acessibilidade.
-- Padrões de código.
-- Padrão de commits (Conventional).
-- Funcionalidade.
-- Qualidade do código.
-- Documentação.
-- Criatividade e inovação.
+To learn more about Next.js, take a look at the following resources:
 
-## ✨ Diferencial
-- Implementação de testes unitários (Jest, React Testing Library).
-- Uso de bibliotecas de gerenciamento de estado (Zustand).
-- Utilização de SSR (Server-Side Rendering) com Next.js.
-- Integração com Stripe para fluxo de pagamento.
-- Desempenho otimizado da aplicação.
-- Implementação de boas práticas de SEO.
-- Configuração de CI/CD (Github Actions).
-- Implementação de testes e2e (Cypress, Playwright).
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## 📅 Entrega
-- Faça um fork deste repositório.
-- Crie uma branch com seu nome-sobrenome.
-- Abra um pull request (PR) para submeter sua solução.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
